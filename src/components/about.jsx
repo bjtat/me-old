@@ -53,3 +53,24 @@ export default class About extends Component {
     );
   }
 }
+
+class progressbar extends Component {
+  render() {
+    return (
+      <div className="progress-wrap">
+        <h3>Python</h3>
+        <div className="progress">
+          <div
+            class="progress-bar color-1"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span> 75% </span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}

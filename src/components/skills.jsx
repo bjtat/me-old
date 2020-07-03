@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 const skillBoxName = "col-md-5 text-center animate-box";
+const skillBarName = "col-md-5 animate-box fadeInLeft animated";
 export default class Skills extends Component {
   render() {
     return (
@@ -15,7 +16,151 @@ export default class Skills extends Component {
                 <span className="heading-meta">What can I provide?</span>
                 <h2>Skills</h2>
               </div>
-            </div>
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Python</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>C</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>R</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Ruby</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>React.JS</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>React.JS</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Javascript</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Java</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={75}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "75%" }}
+                    >
+                      <span> 75% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* </div>
             <div className="row row-pt-md">
               <div className={skillBoxName}>
                 <div className="services color-1">
@@ -66,7 +211,7 @@ export default class Skills extends Component {
                     </p>
                   </div>
                 </div>
-              </div>
+            </div> */}
             </div>
           </div>
         </section>
