@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+const skillBoxName = "col-md-5 text-center animate-box";
 export default class Skills extends Component {
   render() {
     return (
@@ -8,82 +9,61 @@ export default class Skills extends Component {
           <div className="colorlib-narrow-content">
             <div className="row">
               <div
-                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                className="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">Maybe something here?</span>
-                <h1>GODDAMN SKILLS</h1>
+                <span className="heading-meta">What can I provide?</span>
+                <h2>Skills</h2>
               </div>
             </div>
             <div className="row row-pt-md">
-              <div className="col-md-4 text-center animate-box">
+              <div className={skillBoxName}>
                 <div className="services color-1">
                   <span className="icon">
                     <i className="icon-bulb" />
                   </span>
                   <div className="desc">
-                    <h3>Thing 1</h3>
-                    <p>Paragraph 1</p>
+                    <h3>Programming Languages:</h3>
+                    <p>Python, C, R, Ruby, Javascript, Java</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 text-center animate-box">
+              <div className={skillBoxName}>
                 <div className="services color-1">
                   <span className="icon">
                     <i className="icon-phone3" />
                   </span>
                   <div className="desc">
-                    <h3>Thing 2</h3>
-                    <p>Paragraph 2</p>
+                    <h3>Frameworks:</h3>
+                    <p>Ruby on Rails, React.JS</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
+              <div className={skillBoxName}>
+                <div className="services color-2">
                   <span className="icon">
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Thing 3</h3>
-                    <p>Paragraph 3</p>
+                    <h3>Technologies:</h3>
+                    <p>Git, Pivotal Tracker, Jira, Docker, RStudio, CRAN</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
+              <div className={skillBoxName}>
+                <div className="services color-2">
                   <span className="icon">
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Thing 1</h3>
-                    <p>Paragraph 1</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                  <span className="icon">
-                    <i className="icon-layers2" />
-                  </span>
-                  <div className="desc">
-                    <h3>Thing 1</h3>
-                    <p>Paragraph 1</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                  <span className="icon">
-                    <i className="icon-phone3" />
-                  </span>
-                  <div className="desc">
-                    <h3>Thing 1</h3>
-                    <p>Paragraph 1</p>
+                    <h3>People skills:</h3>
+                    <p>
+                      Effective communcation, leadership, teaching, time
+                      management
+                    </p>
                   </div>
                 </div>
               </div>

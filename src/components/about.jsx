@@ -16,24 +16,31 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">
                         Why would you put stuff here
-                      </span>
-                      <h1>About Me</h1>
+                      </span>{" "}
                       <h2>
-                        Passionate Third year Computer Science Major with a Data
+                        Passionate 3rd year Computer Science Major with Data
                         Science Minor.
                       </h2>
-                      <h3>
-                        I'm looking to make an impact and expand my skills.{" "}
-                        <br />
-                        Every opportunity is an opportunity to learn. <br />
-                        Perseverance trumps talent.{" "}
-                      </h3>
                       <p>
-                        Hello, welcome to my website. I am currently a third
-                        year computer science major at Cal Poly San Luis Obispo.
-                        I'm looking to learn frontend development through
-                        React.js along with data analysis through the use of
-                        Python and R.
+                        Nice to meet you! I'm currently completing my
+                        undergradute studies at Cal Poly with the intent to
+                        continue further my education through a master's or PhD.
+                        My current computer science interests are full stack
+                        development, data science (like ML and AI),
+                        cybersecurity, and high performance computing.
+                      </p>
+                      <h4>
+                        Education: Calpoly San Luis Obispo, B.S Computer Science
+                        2018-2022
+                      </h4>
+                      <p>
+                        Overall GPA: 3.6 | Dean's list: Spring 2020, Winter
+                        2020, Winter 2019, Fall 2018
+                      </p>
+                      <p>
+                        Relevant coursework: Systems Programming, Project-Based
+                        Object-Oriented Programming and Design, Data Structures,
+                        Fundamentals of Computer Science.
                       </p>
                     </div>
                   </div>

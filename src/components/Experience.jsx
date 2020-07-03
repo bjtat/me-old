@@ -11,7 +11,7 @@ export default class Experience extends Component {
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">Maybe something here?</span>
+                <span className="heading-meta">Where have I worked?</span>
                 <h2 className="colorlib-heading animate-box">Experience</h2>
               </div>
             </div>
@@ -23,31 +23,25 @@ export default class Experience extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                      <div className="timeline-icon color-2">
+                        <i className="icon-data" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Internship at SecureDocs Inc.{" "}
-                          <span>June 2020 - present</span>
+                          SecureDocs, Inc. <span>June 2020 - present</span>
+                          <br />
+                          <span>
+                            {" "}
+                            <b>Software Engineer Intern</b>{" "}
+                          </span>
                         </h2>
-                        <p>Add stuff here</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article
-                    className="timeline-entry animate-box"
-                    data-animate-effect="fadeInTop"
-                  >
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>
-                          Experience 2 <span>add some more years here</span>
-                        </h2>
-                        <p>Paragraph 2</p>
+                        <p>
+                          I had the opportunity to work under some very talented
+                          engineers who taught me the ropes of full stack
+                          development. Some things that I was exposed to were
+                          Ruby on Rails, MongoDB, React.js, Docker, Jira and
+                          Github.
+                        </p>
                       </div>
                     </div>
                   </article>
@@ -56,20 +50,57 @@ export default class Experience extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen3" />
+                      <div className="timeline-icon color-1">
+                        <i className="icon-bulb" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Experience 3 <span>some years</span>
+                          Cal Poly, San Luis Obispo{" "}
+                          <span>April 2020 - June 2020</span>
+                          <br />
+                          <span>
+                            {" "}
+                            <b>Instructional Student Assistant</b>{" "}
+                          </span>
                         </h2>
-                        <p>Paragraph 3</p>
+                        <p>
+                          I assisted students during class where I helped debug
+                          code or clarified concepts. I also graded assignments
+                          and test weekly along with holding office hours for
+                          students to come in for extra help.{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Hollister Elementary School{" "}
+                          <span>April 2020 - June 2020</span>
+                          <br />
+                          <span>
+                            {" "}
+                            <b>Camp Counselor</b>{" "}
+                          </span>
+                        </h2>
+                        <p>
+                          I mentored students K-9 in STEM oriented classes. Some
+                          noticeable classes were programming in Scratch and
+                          creating Minecraft mods in Javascript.{" "}
+                        </p>
                       </div>
                     </div>
                   </article>
                   <article
                     className="timeline-entry begin animate-box"
-                    data-animate-effect="fadeInBottom"
+                    data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-none"></div>

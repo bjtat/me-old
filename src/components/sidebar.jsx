@@ -26,18 +26,21 @@ export default class Sidebar extends Component {
                 <a href="index.html">Brandon Tat</a>
               </h1>
               <span className="gmail">
-                <i className="icon-mail"></i>brandontat6@gmail.com
+                <i className="icon-mail5"></i> brandontat6@gmail.com
               </span>
               <br />
               <span className="calpolyEmail">
-                <i className="icon-mail"></i> bjtat@calpoly.edu
+                <i className="icon-phone-outline"></i> Phone # available upon
+                request
               </span>
               <br />
               <span className="phoneNumber">
-                <i className="icon-location"></i> Santa Barbara
+                <i className="icon-location-outline"></i> Santa Barbara
               </span>
             </div>
+
             <br />
+
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
@@ -68,11 +71,12 @@ export default class Sidebar extends Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.instagram.com/brandon.tat/"
+                    href="https://github.com/bjtat"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-instagram" />
+                    <i className="icon-github"></i>
+                    {"   Github: bjtat"}
                   </a>
                 </li>
                 <li>
@@ -82,19 +86,24 @@ export default class Sidebar extends Component {
                     rel="noopener noreferrer"
                   >
                     <i className="icon-linkedin2" />
+                    {"   linkedin: brandontat"}
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
-                    href="https://github.com/bjtat"
+                    href="https://www.instagram.com/brandon.tat/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="icon-github"></i>
+                    <i className="icon-instagram" />
+                    {"   IG: brandon_tat"}
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
+
+            <br />
+
             <div className="colorlib-footer">
               <p>
                 <small>
