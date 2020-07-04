@@ -46,7 +46,7 @@ export default class Sidebar extends Component {
                 <ul>
                   <li>
                     <a href="#about" data-nav-section="about">
-                      About
+                      Introduction
                     </a>
                   </li>
                   <li>
@@ -62,6 +62,11 @@ export default class Sidebar extends Component {
                   <li>
                     <a href="#experience" data-nav-section="experience">
                       Experience
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#education" data-nav-section="education">
+                      Education
                     </a>
                   </li>
                 </ul>
@@ -81,12 +86,12 @@ export default class Sidebar extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/brandontat/"
+                    href="https://www.linkedin.com/in/bjtat/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="icon-linkedin2" />
-                    {"   linkedin: brandontat"}
+                    {"   linkedin: bjtat"}
                   </a>
                 </li>
                 {/* <li>

@@ -18,7 +18,10 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row row-pt-md">
-              <div className={projectBoxName} data-animate-effect="fadeInLeft">
+              <div
+                className={projectBoxName}
+                data-animate-effect="fadeInBottom"
+              >
                 <div className="services color-1">
                   <span className="icon2">
                     <i className="icon-file" />
@@ -35,8 +38,11 @@ export default class Projects extends Component {
                 </div>
               </div>
 
-              <div className={projectBoxName} data-animate-effect="fadeInRight">
-                <div className="services color-2">
+              <div
+                className={projectBoxName}
+                data-animate-effect="fadeInBottom"
+              >
+                <div className="services color-1">
                   <span className="icon2">
                     <i className="icon-starburst-outline" />
                   </span>
@@ -55,7 +61,10 @@ export default class Projects extends Component {
                 </div>
               </div>
 
-              <div className={projectBoxName} data-animate-effect="fadeInLeft">
+              <div
+                className={projectBoxName}
+                data-animate-effect="fadeInBottom"
+              >
                 <div className="services color-1">
                   <span className="icon2">
                     <i className="icon-data" />

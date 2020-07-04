@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const skillBoxName = "col-md-5 text-center animate-box";
+// const skillBoxName = "col-md-5 text-center animate-box";
 const skillBarName = "col-md-5 animate-box fadeInLeft animated";
 export default class Skills extends Component {
   render() {
@@ -16,19 +16,37 @@ export default class Skills extends Component {
                 <span className="heading-meta">What can I provide?</span>
                 <h2>Skills</h2>
               </div>
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
                 <div className="progress-wrap">
                   <h3>Python</h3>
                   <div className="progress">
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={75}
+                      aria-valuenow={90}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "75%" }}
+                      style={{ width: "90%" }}
                     >
-                      <span> 75% </span>
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>R</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={80}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "80%" }}
+                    >
+                      <span> 80% </span>
                     </div>
                   </div>
                 </div>
@@ -41,84 +59,48 @@ export default class Skills extends Component {
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={75}
+                      aria-valuenow={70}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "75%" }}
+                      style={{ width: "70%" }}
                     >
-                      <span> 75% </span>
+                      <span> 70% </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
+              <div className={skillBarName} data-animate-effect="fadeInRight">
                 <div className="progress-wrap">
-                  <h3>R</h3>
+                  <h3>Java</h3>
                   <div className="progress">
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={75}
+                      aria-valuenow={70}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "75%" }}
+                      style={{ width: "70%" }}
                     >
-                      <span> 75% </span>
+                      <span> 70% </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
-                <div className="progress-wrap">
-                  <h3>Ruby</h3>
-                  <div className="progress">
-                    <div
-                      class="progress-bar color-1"
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                      style={{ width: "75%" }}
-                    >
-                      <span> 75% </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
+              <div className={skillBarName} data-animate-effect="fadeInRight">
                 <div className="progress-wrap">
                   <h3>React.JS</h3>
                   <div className="progress">
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={75}
+                      aria-valuenow={60}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "75%" }}
+                      style={{ width: "60%" }}
                     >
-                      <span> 75% </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
-                <div className="progress-wrap">
-                  <h3>React.JS</h3>
-                  <div className="progress">
-                    <div
-                      class="progress-bar color-1"
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                      style={{ width: "75%" }}
-                    >
-                      <span> 75% </span>
+                      <span> 60% </span>
                     </div>
                   </div>
                 </div>
@@ -131,30 +113,12 @@ export default class Skills extends Component {
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={75}
+                      aria-valuenow={60}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "75%" }}
+                      style={{ width: "60%" }}
                     >
-                      <span> 75% </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
-                <div className="progress-wrap">
-                  <h3>Java</h3>
-                  <div className="progress">
-                    <div
-                      class="progress-bar color-1"
-                      role="progressbar"
-                      aria-valuenow={75}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                      style={{ width: "75%" }}
-                    >
-                      <span> 75% </span>
+                      <span> 60% </span>
                     </div>
                   </div>
                 </div>
@@ -215,6 +179,7 @@ export default class Skills extends Component {
             </div>
           </div>
         </section>
+        <br />
       </div>
     );
   }

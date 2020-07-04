@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar";
 import About from "./components/about";
-import Experience from "./components/Experience";
+import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
+import Education from "./components/education";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Skills></Skills>
             <Projects></Projects>
             <Experience></Experience>
+            <Education></Education>
           </div>
         </div>
       </div>
