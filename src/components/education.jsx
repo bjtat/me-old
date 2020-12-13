@@ -30,23 +30,34 @@ export default class Education extends Component {
                         <br /> September 2018 - Present
                       </span>
                       <p>
-                        Overall GPA: 3.6 | Dean's list: Spring 2020, Winter
+                        Cumulative GPA: 3.6 | Dean's list: Spring 2020, Winter
                         2020, Winter 2019, Fall 2018
                       </p>
                       <p>
                         <b>Relevant Coursework:</b>
                       </p>
                       <ul>
+                        <li>CSC 490 - Advanced Algorithms and Applications</li>
+                        <li>CSC 445 - Theory of Computation I</li>
                         <li>CPE 357 - Systems Programming</li>
+                        <li>CSC 349 - Design and Analysis of Algorithms</li>
+                        <li>CSC 348 - Discete Structures</li>
+                        <li>CSC 225 - Intro to Computer Organization</li>
                         <li>
                           CPE 203 - Project-Based Object-Oriented Programming
                           and Design
                         </li>
-                        <li>CSC 348 - Discete Structures</li>
-                        <li>STAT 331 - Statistical Computing with R</li>
                         <li>CPE 202 - Data Structures</li>
                         <li>CPE 101 - Fundamentals of Computer Science</li>
+                        <li>CPE 123 - Introduction to Computing: Security</li>
+                        <li>DATA 301 - Introduction to Data Science</li>
+                        <li>STAT 312 - Statistical Methods for Engineers</li>
+                        <li>STAT 331 - Statistical Computing with R</li>
+                        <li>
+                          STAT 305 - Introduction to Proability and Simulation
+                        </li>
                       </ul>
+
                       <br />
                       <h4>Dos Pueblos High School</h4>
                       <span>August 2014 - June 2018</span>

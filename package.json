@@ -1,6 +1,6 @@
 {
-  "homepage": "https://bjtat.github.io/personal-website",
-  "name": "personal-website",
+  "homepage": "https://bjtat.github.io/me",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

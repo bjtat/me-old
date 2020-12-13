@@ -16,14 +16,14 @@ export default class Experience extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-10">
                 <div className="timeline-centered">
                   <article
                     className="timeline-entry animate-box"
                     data-animate-effect="fadeInBottom"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-1">
+                      <div className="timeline-icon color-4 ">
                         <i className="icon-data" />
                       </div>
                       <div className="timeline-label">
@@ -35,13 +35,24 @@ export default class Experience extends Component {
                             <b>Software Engineer Intern</b>{" "}
                           </span>
                         </h2>
-                        <p>
-                          I had the opportunity to work under some very talented
-                          engineers who taught me the ropes of full stack
-                          development. Some things that I was exposed to were
-                          Ruby on Rails, MongoDB, React.js, Docker, Jira and
-                          Github.
-                        </p>
+                        <ul>
+                          <li>
+                            Worked on developing Virtual Data Room and Contract
+                            Management software
+                          </li>
+                          <li>
+                            Resolved bugs and implement new features using
+                            Rails, React.JS, and MongoDB
+                          </li>
+                          <li>
+                            Worked on the code-base using Git/Github under
+                            guidance of a team of engineers
+                          </li>
+                          <li>
+                            Worked in an environment setup using Kubernetes,
+                            Docker, and AWS
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </article>
@@ -50,7 +61,7 @@ export default class Experience extends Component {
                     data-animate-effect="fadeInBottom"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-1">
+                      <div className="timeline-icon color-4">
                         <i className="icon-bulb" />
                       </div>
                       <div className="timeline-label">
@@ -63,12 +74,21 @@ export default class Experience extends Component {
                             <b>Instructional Student Assistant</b>{" "}
                           </span>
                         </h2>
-                        <p>
-                          I assisted students during class where I helped debug
-                          code or clarified concepts. I also graded assignments
-                          and test weekly along with holding office hours for
-                          students to come in for extra help.{" "}
-                        </p>
+                        <ul>
+                          <li>Assisted students in learning data structures</li>
+                          <li>
+                            Ensured that students understood the material and
+                            complete assignments
+                          </li>
+                          <li>
+                            Graded assignments and gave feedback so students
+                            could improve
+                          </li>
+                          <li>
+                            Held weekly drop-in office hours and by appointment
+                            for 3-5 hours
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </article>
@@ -77,7 +97,7 @@ export default class Experience extends Component {
                     data-animate-effect="fadeInBottom"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-1">
+                      <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">

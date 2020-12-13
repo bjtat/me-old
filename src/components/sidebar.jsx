@@ -94,16 +94,6 @@ export default class Sidebar extends Component {
                     {"   linkedin: bjtat"}
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="https://www.instagram.com/brandon.tat/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="icon-instagram" />
-                    {"   IG: brandon_tat"}
-                  </a>
-                </li> */}
               </ul>
             </nav>
 

@@ -41,6 +41,96 @@ export default class Skills extends Component {
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "90%" }}
+                    >
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>C</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "90%" }}
+                    >
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>Java</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "90%" }}
+                    >
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>Javascript</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "90%" }}
+                    >
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>C++</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
+                      aria-valuenow={90}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "90%" }}
+                    >
+                      <span> 90% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
+                <div className="progress-wrap">
+                  <h3>Ruby</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-1"
+                      role="progressbar"
                       aria-valuenow={80}
                       aria-valuemin={0}
                       aria-valuemax={100}
@@ -52,48 +142,38 @@ export default class Skills extends Component {
                 </div>
               </div>
 
-              <div className={skillBarName} data-animate-effect="fadeInLeft">
+              <div className={skillBarName} data-animate-effect="fadeInBottom">
                 <div className="progress-wrap">
-                  <h3>C</h3>
+                  <h3>Bash</h3>
                   <div className="progress">
                     <div
                       class="progress-bar color-1"
                       role="progressbar"
-                      aria-valuenow={70}
+                      aria-valuenow={80}
                       aria-valuemin={0}
                       aria-valuemax={100}
-                      style={{ width: "70%" }}
+                      style={{ width: "80%" }}
                     >
-                      <span> 70% </span>
+                      <span> 80% </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className={skillBarName} data-animate-effect="fadeInRight">
-                <div className="progress-wrap">
-                  <h3>Java</h3>
-                  <div className="progress">
-                    <div
-                      class="progress-bar color-1"
-                      role="progressbar"
-                      aria-valuenow={70}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                      style={{ width: "70%" }}
-                    >
-                      <span> 70% </span>
-                    </div>
-                  </div>
-                </div>
+              <div
+                className="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <span className="heading-meta"></span>
+                <h2>Technologies</h2>
               </div>
 
               <div className={skillBarName} data-animate-effect="fadeInRight">
                 <div className="progress-wrap">
-                  <h3>React.JS</h3>
+                  <h3>Numpy</h3>
                   <div className="progress">
                     <div
-                      class="progress-bar color-1"
+                      class="progress-bar color-5"
                       role="progressbar"
                       aria-valuenow={60}
                       aria-valuemin={0}
@@ -108,10 +188,208 @@ export default class Skills extends Component {
 
               <div className={skillBarName} data-animate-effect="fadeInLeft">
                 <div className="progress-wrap">
-                  <h3>Javascript</h3>
+                  <h3>Pandas</h3>
                   <div className="progress">
                     <div
-                      class="progress-bar color-1"
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>Scikit-learn</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Tidyverse</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>Google Colab</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Linux (Ubuntu 18.08/20.08 LTS)</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>Git/Github</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>React.JS</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>MongoDB</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Ruby on Rails</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>Docker</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInLeft">
+                <div className="progress-wrap">
+                  <h3>Kubernetes</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
+                      role="progressbar"
+                      aria-valuenow={60}
+                      aria-valuemin={0}
+                      aria-valuemax={100}
+                      style={{ width: "60%" }}
+                    >
+                      <span> 60% </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={skillBarName} data-animate-effect="fadeInRight">
+                <div className="progress-wrap">
+                  <h3>SQL Workbench</h3>
+                  <div className="progress">
+                    <div
+                      class="progress-bar color-5"
                       role="progressbar"
                       aria-valuenow={60}
                       aria-valuemin={0}
